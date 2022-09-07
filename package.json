@@ -1,0 +1,46 @@
+{
+  "name": "mosaadat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+     "@apollo/client": "^3.4.8",
+    "@ethersproject/address": "^5.4.0",
+    "@ethersproject/bytes": "^5.4.0",
+    "@ethersproject/constants": "^5.4.0",
+    "@ethersproject/contracts": "^5.4.1",
+    "@ethersproject/providers": "^5.1.2",
+    "@ethersproject/units": "^5.1.0",
+    "@headlessui/react": "^1.4.0",
+    "@uniswap/default-token-list": "^2.0.0",
+    "@web3-react/abstract-connector": "latest",
+    "@web3-react/core": "latest",
+    "@web3-react/injected-connector": "latest",
+    "@web3-react/network-connector": "latest",
+    "@web3-react/walletconnect-connector": "latest",
+    "@web3-react/walletlink-connector": "latest",
+    "babel-plugin-styled-components": "^1.13.2",
+    "cids": "^1.1.7",
+    "graphql": "^15.5.1",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^4.4.1",
+    "styled-reset": "^4.3.4",
+    "universal-base64": "^2.1.0",
+    "web3.storage": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.15",
+    "@types/react": "18.0.18",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "typescript": "4.8.2"
+  }
+}
